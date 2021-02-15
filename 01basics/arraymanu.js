@@ -1,6 +1,6 @@
 const month = ['January' , 'Feburary' , 'March' , 'April' , 'May' , 'June']
 
-console.log(month.length);
+// console.log(month.length);
 
 // month[2] = 'SomeThing'
 // console.log(month);
@@ -23,6 +23,8 @@ console.log(month.length);
 
 //middle
 
+// let arrDeletedItems = array.splice(start[, deleteCount[, item1[, item2[, ...]]]])
+
 // month.splice(2 , 2 , 'Something' , 'SomeMoreThing')
-// console.log(month.splice(2 , 2 , 'Something' , 'SomeMoreThing'));
-// console.log(month);
+console.log(month.splice(2 , 2 , 'Something' , 'SomeMoreThing'));
+console.log(month);
